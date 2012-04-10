@@ -20,6 +20,8 @@ Put on manifest file (default, `application.js`):
 
     //= require audiojs
 
+You can read more about audio.js on http://kolber.github.com/audiojs/.
+
 ## Contributing
 
 1. Fork it
@@ -27,3 +29,7 @@ Put on manifest file (default, `application.js`):
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Credits
+
+Thanks for [Anthony Kolber](https://github.com/kolber) for creating audio.js.

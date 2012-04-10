@@ -34,7 +34,7 @@
       autoplay: false,
       loop: false,
       preload: true,
-      imageLocation: path + 'player-graphics.gif',
+      imageLocation: path + 'audiojs-player-graphics.gif',
       swfLocation: path + 'audiojs.swf',
       useFlash: (function() {
         var a = document.createElement('audio');
