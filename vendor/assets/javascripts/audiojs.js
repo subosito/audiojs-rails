@@ -4,18 +4,20 @@
   // Remember that some systems (e.g. ruby on rails) append strings like '?1301478336' to asset paths
   var path = (function() {
     var re = new RegExp('([a-zA-Z0-9\-_]+)(\.min)?\.js.*'),
-        scripts = document.getElementsByTagName('script');
+        scripts = document.getElementsByTagName('script')
+        px = '/assets/';
 
     for (var i = 0, ii = scripts.length; i < ii; i++) {
       var path = scripts[i].getAttribute('src');
       if(re.test(path)) {
-        _th = path.substring(0,path.lastIndexOf("/")+1);
-        if ((typeof _th === 'undefined') || (_th == '')) {
-          return '/assets/';
+        var _th = path.substring(0,path.lastIndexOf("/")+1);
+        if (!(typeof _th === 'undefined') || (_th == '')) {
+          return _th;
         }
-        return _th;
       }
     }
+
+    return px;
   })();
 
   // ##The audiojs interface
