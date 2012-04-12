@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["subosito@gmail.com"]
   gem.description   = %q{Audio.js on Rails Asset Pipeline}
   gem.summary       = %q{audio.js is a drop-in javascript library that allows HTML5's <audio> tag to be used anywhere.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/subosito/audiojs"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

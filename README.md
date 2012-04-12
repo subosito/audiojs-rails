@@ -16,7 +16,7 @@ Or install it yourself as:
 
     $ gem install audiojs
 
-Put on manifest file (default, `application.js`):
+Put on manifest file (usually, `application.js`):
 
     //= require audiojs
 
