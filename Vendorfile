@@ -1,0 +1,10 @@
+from 'git://github.com/kolber/audiojs.git' do
+  file 'vendor/assets/javascripts/audiojs-player-graphics.gif', 'audiojs/player-graphics.gif'
+  file 'vendor/assets/javascripts/audiojs.swf', 'audiojs/audiojs.swf'
+  file 'vendor/assets/javascripts/audiojs.js.erb', 'audiojs/audio.js' do |path|
+    rewrite(path) do |content|
+      content.gsub!("imageLocation: path + 'player-graphics.gif'", "imageLocation: <%= asset_path 'audiojs-player-graphics.gif' %>")
+      content.gsub!("swfLocation: path + 'audiojs.swf'", "swfLocation: <%= asset_path 'audiojs.swf' %>")
+    end
+  end
+end

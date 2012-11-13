@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "audiojs"
   gem.require_paths = ["lib"]
   gem.version       = Audiojs::VERSION
+
+  gem.add_development_dependency('vendorer')
 end
