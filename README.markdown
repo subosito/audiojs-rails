@@ -16,11 +16,9 @@ Or install it yourself as:
 
     $ gem install audiojs
 
-Put on manifest file (usually, `application.js`):
+Put on your `application.js`:
 
     //= require audiojs
-
-You can read more about audio.js on http://kolber.github.com/audiojs/.
 
 ## Contributing
 
@@ -32,4 +30,5 @@ You can read more about audio.js on http://kolber.github.com/audiojs/.
 
 ## Credits
 
-Thanks for [Anthony Kolber](https://github.com/kolber) for creating audio.js.
+Thanks for [Anthony Kolber](https://github.com/kolber) for creating audio.js. You can read more about audio.js on http://kolber.github.com/audiojs/.
+
