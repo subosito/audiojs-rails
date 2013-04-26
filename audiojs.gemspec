@@ -7,13 +7,14 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Audio.js on Rails Asset Pipeline}
   gem.summary       = %q{audio.js is a drop-in javascript library that allows HTML5's <audio> tag to be used anywhere.}
   gem.homepage      = "https://github.com/subosito/audiojs"
+  gem.licenses      = ["MIT"]
 
-  gem.files         = `git ls-files`.split($\)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.files         = Dir["{lib,vendor}/**/*"] + ["Rakefile", "README.md"]
+  gem.test_files    = Dir["test/**/*"]
   gem.name          = "audiojs"
   gem.require_paths = ["lib"]
   gem.version       = Audiojs::VERSION
 
+  gem.add_dependency 'railties', '>= 3.1'
   gem.add_development_dependency('vendorer')
 end
