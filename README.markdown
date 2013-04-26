@@ -1,5 +1,7 @@
 # Audiojs [![Gem Version](https://badge.fury.io/rb/audiojs.png)](http://badge.fury.io/rb/audiojs) [![Build Status](https://secure.travis-ci.org/subosito/audiojs.png)](http://travis-ci.org/subosito/audiojs)
 
+![Logo](docs/images/audiojs.png)
+
 [audio.js](http://kolber.github.com/audiojs/) is a drop-in javascript library that allows HTML5's <audio> tag to be used anywhere.
 
 ## Installation
