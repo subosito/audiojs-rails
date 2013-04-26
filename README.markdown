@@ -1,4 +1,4 @@
-# Audiojs
+# Audiojs [![Gem Version](https://badge.fury.io/rb/audiojs.png)](http://badge.fury.io/rb/audiojs)
 
 [audio.js](http://kolber.github.com/audiojs/) is a drop-in javascript library that allows HTML5's <audio> tag to be used anywhere.
 
