@@ -9,12 +9,13 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/subosito/audiojs"
   gem.licenses      = ["MIT"]
 
-  gem.files         = Dir["{lib,vendor}/**/*"] + ["Rakefile", "README.md"]
+  gem.files         = Dir["{lib,vendor}/**/*"] + ["Rakefile", "README.markdown"]
   gem.test_files    = Dir["test/**/*"]
   gem.name          = "audiojs"
   gem.require_paths = ["lib"]
   gem.version       = Audiojs::VERSION
 
   gem.add_dependency 'railties', '>= 3.1'
-  gem.add_development_dependency('vendorer')
+  gem.add_development_dependency 'vendorer'
+  gem.add_development_dependency 'tzinfo'
 end
