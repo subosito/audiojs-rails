@@ -18,4 +18,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'railties', '>= 3.1'
   gem.add_development_dependency 'vendorer'
   gem.add_development_dependency 'tzinfo'
+  gem.add_development_dependency 'sprockets-rails'
 end
