@@ -24,7 +24,7 @@ Or install it yourself as:
 
 Put on your `application.js`:
 
-    //= require audiojs-rails
+    //= require audiojs
 
 ## Contributing
 
