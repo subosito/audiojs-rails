@@ -1,8 +1,8 @@
 # Audiojs
 
-[![Gem Version](https://badge.fury.io/rb/audiojs.png)](http://badge.fury.io/rb/audiojs)
-[![Build Status](https://secure.travis-ci.org/subosito/audiojs.png)](http://travis-ci.org/subosito/audiojs)
-[![Dependency Status](https://gemnasium.com/subosito/audiojs.png)](https://gemnasium.com/subosito/audiojs)
+[![Gem Version](https://badge.fury.io/rb/audiojs-rails.png)](http://badge.fury.io/rb/audiojs-rails)
+[![Build Status](https://secure.travis-ci.org/subosito/audiojs-rails.png)](http://travis-ci.org/subosito/audiojs-rails)
+[![Dependency Status](https://gemnasium.com/subosito/audiojs-rails.png)](https://gemnasium.com/subosito/audiojs-rails)
 
 ![Logo](docs/images/audiojs.png)
 
@@ -12,7 +12,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'audiojs'
+    gem 'audiojs-rails'
 
 And then execute:
 
@@ -20,11 +20,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install audiojs
+    $ gem install audiojs-rails
 
 Put on your `application.js`:
 
-    //= require audiojs
+    //= require audiojs-rails
 
 ## Contributing
 
