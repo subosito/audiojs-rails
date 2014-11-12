@@ -1,4 +1,4 @@
-require "audiojs/version"
+require "audiojs/rails/version"
 
 module Audiojs
   module Rails

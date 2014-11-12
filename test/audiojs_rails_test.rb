@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class AudiojsTest < ActionDispatch::IntegrationTest
+class AudiojsRailsTest < ActionDispatch::IntegrationTest
   teardown { clean_cache }
 
   test "engine is loaded" do
